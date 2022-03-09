@@ -1,0 +1,32 @@
+.user-form {
+  width: 35rem;
+  text-align: center;
+  margin: 3rem auto 2rem;
+  background-color: beige;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.2);
+}
+.user-form input {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.user-form input[type="text"] {
+  width: 25rem;
+}
+.user-form p {
+  font-weight: 700;
+}
+.user-form button {
+  background-color: slateblue;
+  padding: 6px;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+.user-form button:hover {
+  color: beige;
+  cursor: pointer;
+}

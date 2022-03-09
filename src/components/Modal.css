@@ -1,0 +1,44 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #a52a9354;
+}
+.modal-container {
+  position: relative;
+  width: 30rem;
+  height: 16rem;
+  margin: auto;
+  top: calc(50vh - 6rem);
+  box-shadow: 5px 5px 10px black;
+}
+.modal .modal-header {
+  font-weight: bold;
+
+  height: 3rem;
+  background-color: blueviolet;
+  line-height: 3rem;
+  border-radius: 5px 5px 0 0;
+}
+.modal .modal-body {
+  font-size: larger;
+  height: 13rem;
+  background-color: white;
+  position: relative;
+  border-radius: 0 0 5px 5px;
+}
+
+.modal .modal-button {
+  background-color: blueviolet;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  padding: 6px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+.modal .modal-button:hover {
+  color: beige;
+  cursor: pointer;
+}
