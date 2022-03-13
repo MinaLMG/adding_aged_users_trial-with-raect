@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./Modal.css";
-let onlyOuter = false;
+let onlyOuter = true;
 function Modal(props) {
   // const [clickedCount, setClickedCount] = useState(0);
   function countClicked() {
     // setClickedCount(1);
-    onlyOuter = true;
+    onlyOuter = false;
   }
   function checKOuter() {
     //     if (clickedCount == 0) {
@@ -14,10 +14,10 @@ function Modal(props) {
     //       setClickedCount(0);
     //     }
 
-    if (onlyOuter == false) {
+    if (onlyOuter) {
       props.onHide();
     } else {
-      onlyOuter = false;
+      onlyOuter = true;
     }
   }
   return (
